@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ProfileCard from "./components/About/ProfileCard";
 import TheviBilde from "./assets/thevi-profile.jpeg";
 import TonyBilde from "./assets/tony-profile.jpg";
+import ThomasBilde from "./assets/thomas.profile.jpg";
 import Header from "./components/Header.tsx";
 
 
@@ -43,29 +44,28 @@ function App() {
           personalWebsite="thevithach.vercel.app"
         />
         <ProfileCard
-          name="Thomas"
+          name="Nhan Thomas Trong Nguyen"
           title="Student | Full-Stack Utvikler"
           university="Universitet i Agder"
-          githubUrl="https://github.com/thevithach"
-          linkedinUrl="https://www.linkedin.com/in/vithethach/"
-          imageUrl={TheviBilde}
-          description="Vi The Thach er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+          githubUrl="https://github.com/NThomTNg"
+          linkedinUrl="https://www.linkedin.com/in/nhan-thomas-nguyen-024860253/"
+          imageUrl={ThomasBilde}
+          description="Nhan Thomas er en engasjert IT-student på 22 år fra Trondheim, med en stor interesse for teknologi og data. Gjennom flere år på universitet så har han utviklet en solid kompentanse innen IT. Dette gjelder både back-end og front-end. Nysgjerrighet og prøve ved feil har gitt han en god forståelse og kunnskap innenfor feltet, og han er alltid klar for å lære noe nytt og løse utfordringer. Gjennom høsten 2024 jobber Thomas hos Swipload, der han lærer veldig mye praktisk og profesjonell erfaring som kommer til å utvikle videre hans kompentanse."
           skills={{
             frontend: [
               "React",
+              "Svelte",
               "TypeScript",
+              "Javascript",
               "Tailwind",
-              "Redux",
-              "GraphQL",
-              "CSS",
-              "HTML",
+              "Bootstrap",
             ],
             backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
-            database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
-            tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
+            database: ["MySQL", "Azure", "PostgreSQL", "Mongo DB"],
+            tools: ["Docker", "Git", "npm", "Azure"],
           }}
-          additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-          personalWebsite="thevithach.vercel.app"
+          additionalInfo="Thomas jobber praksis hos Swipload i høst-perioden 2024 -"
+          personalWebsite= "https://nthomtng.github.io/PraksisNettSide/"
         />
         <ProfileCard
           name="Omar"
