@@ -32,7 +32,6 @@ const ProfileCard: React.FC<ProfileProps> = ({
 }) => {
   return (
     <div className="container mx-auto max-w-screen-lg min-h-min p-4">
-      <hr className="p-2 border-orange-400" />
       <div className="flex lg:flex-row flex-col items-center lg:items-start lg:justify-normal justify-center lg:gap-8 gap-4">
         <div className="flex flex-col gap-2 w-1/2">
           <div className="self-center min-w-[330px]">

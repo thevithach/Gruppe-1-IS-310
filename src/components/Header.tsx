@@ -9,7 +9,7 @@ const Header = () => (
       <div className="relative flex flex-col md:flex-row items-center justify-between mb-8">
         <div className="md:w-1/2 mb-4 md:mb-0">
           <h1 className="text-5xl font-bold mb-1 text-orange-500">Hei sann!</h1>
-          <h2 className="text-2xl text-gray-700">Vi er gruppe 1</h2>
+          <h2 className="text-2xl text-gray-700">Vi er Gruppe 1</h2>
           <p className="text-lg text-black-600 max-w-screen-sm mt-10 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,15 +1,23 @@
 import "./output.css";
+
+
+import NavBar from './components/NavBar';
 import Footer from "./components/Footer";
 import ProfileCard from "./components/About/ProfileCard";
 import TheviBilde from "./assets/thevi-profile.jpeg";
 import TonyBilde from "./assets/tony-profile.jpg";
 import ThomasBilde from "./assets/thomas.profile.jpg";
+import Header from "./components/Header.tsx";
+
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+      <NavBar/>
       <div className="flex-grow">
+        <Header /> 
         {/* Your page content goes here */}
+        <hr className="container mx-auto max-w-screen-lg border-orange-400" />
         <ProfileCard
           name="Issa"
           title="Student | Full-Stack Utvikler"
@@ -131,7 +139,7 @@ function App() {
             tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
           }}
           additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-          personalWebsite="thevithach.vercel.app"
+          personalWebsite="https://thevithach.vercel.app"
         />
         <ProfileCard
           name="Viktor"
@@ -159,7 +167,7 @@ function App() {
           personalWebsite="thevithach.vercel.app"
         />
       </div>
-      <Footer /> {/* This is the footer */}
+      <Footer />
     </div>
   );
 }
