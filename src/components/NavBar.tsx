@@ -15,9 +15,9 @@ function NavBar() {
                 {/* Brand Name as a clickable link */}
                 <a
                     href="/"
-                    className="flex items-center space-x-3 rtl:space-x-reverse">
+                    className="flex text-white items-center space-x-3 rtl:space-x-reverse">
                     <span className="text-2xl font-semibold whitespace-nowrap">
-                        Gruppe 1
+                        Prosjektgjennomføring
                     </span></a>
 
                 {/* Button to toggle mobile menu */}
