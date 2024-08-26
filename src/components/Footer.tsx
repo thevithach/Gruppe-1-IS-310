@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             transition: transform 0.3s ease, filter 0.3s ease;
           }
           footer img:hover {
-            transform: scale(1.1);
+            transform: scale(1.4);
             filter: brightness(0.8);
           }
         `}
