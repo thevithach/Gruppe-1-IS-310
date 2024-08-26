@@ -1,7 +1,7 @@
 import "./output.css";
-import Footer from "./Components/Footer";
-import ProfileCard from "./Components/About/ProfileCard";
-import TheviBilde from "./assets/TheviBilde.jpeg";
+import Footer from "./components/Footer";
+import ProfileCard from "./components/About/ProfileCard";
+import TheviBilde from "./assets/thevi-profile.jpeg";
 
 function App() {
   return (
