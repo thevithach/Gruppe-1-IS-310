@@ -3,12 +3,15 @@ import Footer from "./components/Footer";
 import ProfileCard from "./components/About/ProfileCard";
 import TheviBilde from "./assets/thevi-profile.jpeg";
 import TonyBilde from "./assets/tony-profile.jpg";
+import Header from "./components/Header.tsx";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow">
+        <Header /> 
         {/* Your page content goes here */}
+        <hr className="container mx-auto max-w-screen-lg border-orange-400" />
         <ProfileCard
           name="Issa"
           title="Student | Full-Stack Utvikler"
@@ -159,7 +162,7 @@ function App() {
           personalWebsite="thevithach.vercel.app"
         />
       </div>
-      <Footer /> {/* This is the footer */}
+      <Footer />
     </div>
   );
 }
