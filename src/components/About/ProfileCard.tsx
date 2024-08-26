@@ -61,7 +61,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
         </div>
         <div className="w-full">
           <div className="px-4">
-            <p className="pb-2">{description}</p>
+            <p className="text-gray-700 pb-2">{description}</p>
             <h2 className="py-2 font-semibold">
               Relevante IT-kompetanseområder inkluderer:
             </h2>
