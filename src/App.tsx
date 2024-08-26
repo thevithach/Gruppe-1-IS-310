@@ -3,10 +3,12 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <p className=" text-red-500">Nav</p>
-      <Footer />
-    </>
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow">
+        {/* Your page content goes here */}
+      </div>
+      <Footer /> {/* This is the footer */}
+    </div>
   );
 }
 
