@@ -1,13 +1,18 @@
 import "./output.css";
+
+
+import NavBar from './components/NavBar';
 import Footer from "./components/Footer";
 import ProfileCard from "./components/About/ProfileCard";
 import TheviBilde from "./assets/thevi-profile.jpeg";
 import TonyBilde from "./assets/tony-profile.jpg";
 import Header from "./components/Header.tsx";
 
+
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+      <NavBar/>
       <div className="flex-grow">
         <Header /> 
         {/* Your page content goes here */}
