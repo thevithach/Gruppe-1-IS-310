@@ -32,7 +32,6 @@ const ProfileCard: React.FC<ProfileProps> = ({
 }) => {
   return (
     <div className="container mx-auto max-w-screen-lg min-h-min p-4">
-      <hr className="p-2 border-orange-400" />
       <div className="flex lg:flex-row flex-col items-center lg:items-start lg:justify-normal justify-center lg:gap-8 gap-4">
         <div className="flex flex-col gap-2 w-1/2">
           <div className="self-center min-w-[330px]">
@@ -61,7 +60,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
         </div>
         <div className="w-full">
           <div className="px-4">
-            <p className="pb-2">{description}</p>
+            <p className="text-gray-700 pb-2">{description}</p>
             <h2 className="py-2 font-semibold">
               Relevante IT-kompetanseområder inkluderer:
             </h2>
