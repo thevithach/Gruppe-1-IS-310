@@ -134,7 +134,7 @@ function App() {
             tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
           }}
           additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-          personalWebsite="thevithach.vercel.app"
+          personalWebsite="https://thevithach.vercel.app"
         />
         <ProfileCard
           name="Viktor"
