@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           </li>
         </ul>
         <p>
-          Lagd av: Issa Al-Musawi, Nhan Thomas Nguyen, Omar Passi, Tony Nguyen
+          Issa Al-Musawi, Nhan Thomas Nguyen, Omar Passi, Tony Nguyen
           Le, Vi The Thach og Viktor Johan Kalhovd
         </p>
         <p>© 2024 • Gruppe 1 ©</p>
