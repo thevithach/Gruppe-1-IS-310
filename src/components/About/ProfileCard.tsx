@@ -91,7 +91,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
           </div>
         </div>
       </div>
-      <hr className="border-orange-400" />
+      <hr className="border-orange-400 mt-4" />
     </div>
   );
 };
