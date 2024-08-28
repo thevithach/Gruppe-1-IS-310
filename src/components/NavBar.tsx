@@ -16,7 +16,7 @@ function NavBar() {
           {/* Brand Name as a clickable link */}
           <a
             href="/"
-            className="flex text-orange-500 items-center space-x-3 rtl:space-x-reverse"
+            className="flex text-orange-500 hover:text-opacity-60 items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="text-2xl font-semibold whitespace-nowrap">
               Prosjektgjennomføring
@@ -56,7 +56,7 @@ function NavBar() {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
               <li>
                 <a
                   href="#"
