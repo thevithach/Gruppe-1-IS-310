@@ -16,7 +16,7 @@ function NavBar() {
           {/* Brand Name as a clickable link */}
           <a
             href="/"
-            className="flex text-orange-500 hover:text-opacity-60 items-center space-x-3 rtl:space-x-reverse"
+            className="flex text-orange-500 hover:text-opacity-65 items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="text-2xl font-semibold whitespace-nowrap">
               Prosjektgjennomføring
