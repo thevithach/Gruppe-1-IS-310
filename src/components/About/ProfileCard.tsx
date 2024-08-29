@@ -98,7 +98,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
         </div>
       </div>
       <hr className="border-orange-400 mt-4" />
-      // Add hover effect to the icons
+      
       <style>
         {`
           .fa-brands {
