@@ -7,58 +7,35 @@ const Footer: React.FC = () => {
         <ul className="list-none flex justify-center gap-4 mb-4">
           <li>
             <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/linkedin-icon.png"
-                alt="LinkedIn"
-                width="30"
-                height="30"
-              />
-            </a>
-          </li>
-          <li>
-            <a
               href="https://github.com/thevithach/Gruppe-1-IS-310"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="/images/github-icon.png"
-                alt="GitHub"
-                width="30"
-                height="30"
-              />
+              <i
+                className="fa-brands fa-github"
+                style={{ fontSize: "30px", color: "black" }}
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa-brands fa-linkedin"
+                style={{ fontSize: "30px", color: "black" }}
+              ></i>
             </a>
           </li>
         </ul>
         <p>
-          Issa Al-Musawi, Nhan Thomas Nguyen, Omar Passi, Tony Nguyen
-          Le, Vi The Thach og Viktor Johan Kalhovd
+          Issa Al-Musawi, Nhan Thomas Nguyen, Omar Passi, Tony Nguyen Le, Vi The
+          Thach og Viktor Johan Kalhovd
         </p>
         <p>© 2024 • Gruppe 1</p>
       </div>
-      <style>
-        {`
-          footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-          }
-          footer img {
-            width: 30px;
-            height: 30px;
-            transition: transform 0.3s ease, filter 0.3s ease;
-          }
-          footer img:hover {
-            transform: scale(1.4);
-            filter: brightness(0.8);
-          }
-        `}
-      </style>
     </footer>
   );
 };
