@@ -50,10 +50,16 @@ const ProfileCard: React.FC<ProfileProps> = ({
 
             <div className="flex gap-4 justify-center text-3xl py-2">
               <a href={githubUrl}>
-                <i className="fa-brands fa-github"></i>
+                <i
+                  className="fa-brands fa-github"
+                  style={{ fontSize: "30px", color: "black" }}
+                ></i>
               </a>
               <a href={linkedinUrl}>
-                <i className="fa-brands fa-linkedin"></i>
+                <i
+                  className="fa-brands fa-linkedin"
+                  style={{ fontSize: "30px", color: "black" }}
+                ></i>
               </a>
             </div>
           </div>
@@ -92,6 +98,20 @@ const ProfileCard: React.FC<ProfileProps> = ({
         </div>
       </div>
       <hr className="border-orange-400 mt-4" />
+      // Add hover effect to the icons
+      <style>
+        {`
+          .fa-brands {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+          }
+          .fa-brands:hover {
+            transform: scale(1.4);
+            filter: brightness(0.8);
+          }
+        `}
+      </style>
     </div>
   );
 };
