@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <>
       <nav className="bg-white shadow">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-4 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           <a
             href="/"
