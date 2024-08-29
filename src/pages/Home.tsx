@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header/Header";
 import ProfileCard from "../components/About/ProfileCard";
 import TheviBilde from "../assets/thevi-profile.jpeg";

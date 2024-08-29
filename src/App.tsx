@@ -1,7 +1,5 @@
 import NavBar from "./components/Layout/NavBar.tsx";
 import Footer from "./components/Layout/Footer.tsx";
-import TonyBilde from "./assets/tony-profile.jpg";
-import Header from "./components/Header/Header.tsx";
 import Home from "./pages/Home.tsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import WhyUsPage from "./pages/WhyUsPage.tsx";
