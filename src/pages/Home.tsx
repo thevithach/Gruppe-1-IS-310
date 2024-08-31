@@ -67,7 +67,7 @@ const Home = () => {
         githubUrl="https://github.com/Omarp321"
         linkedinUrl="https://www.linkedin.com/in/MÅFIKSES/"
         imageUrl={TheviBilde}
-        description="Omar Passi er en engasjert IT-student på 21 år fra Kristiansand, med en stor lidenskap for teknologi. Gjennom sin studietid har Omar utviklet en solid kompetanse innen både front-end og back-end utvikling. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og har en dyp interesse for å utvikle innovative løsninger. Omar trives med å løse komplekse problemer, og bruker sin analytiske tenkning og feilsøkingsevner for å finne de beste løsningene. For tiden er Omar i praksis hos Universitetet i Agder, hvor han får verdifull praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description="Omar Passi er en engasjert IT-student på 21 år fra Kristiansand, med en stor lidenskap for teknologi. Gjennom studietiden har Omar utviklet en solid kompetanse innen både front-end og back-end utvikling. Han kombinerer nysgjerrighet med sterk arbeidsetikk, og har en dyp interesse for å utvikle innovative løsninger. Omar trives med å løse komplekse problemer, og benytter sin analytiske ferdigheter og feilsøkingsevner for å finne de beste løsningene. For tiden er Omar i praksis hos Universitetet i Agder, hvor han får verdifull praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: [
             "React",
