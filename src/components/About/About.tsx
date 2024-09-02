@@ -94,7 +94,7 @@ const About = () => {
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
           tools: ["Docker", "Git", "npm", "DevOps Methodology", "Azure"],
         }}
-        additionalInfo="Lær mer om Tony Nguyen Le ved å besøke hans nettside -"
+        additionalInfo="Lær mer om Tony Nguyen Le ved å besøke hans prosjekter via nettsiden -"
         personalWebsite="https://leworks.vercel.app/"
       />
       <ProfileCard
