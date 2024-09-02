@@ -94,7 +94,7 @@ const About = () => {
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
           tools: ["Docker", "Git", "npm", "DevOps Methodology", "Azure"],
         }}
-        additionalInfo="Lær mer om Tony Nguyen Le og hans prosjekter gjennom studietiden hans ved å besøke hans nettside -"
+        additionalInfo="Tony Nguyen Le er praksisstudent hos Swipload høsten 2024, for mer informasjon besøk -"
         personalWebsite="https://leworks.vercel.app/"
       />
       <ProfileCard
