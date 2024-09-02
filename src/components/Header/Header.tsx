@@ -1,4 +1,5 @@
 import WhyUsBanner from "./WhyUsBanner";
+import GroupImage from "../../assets/group.jpg";
 
 const Header = () => (
   <>
@@ -31,7 +32,7 @@ const Header = () => (
         </div>
         <div className="flex justify-center items-center">
           <img
-            src="./src/assets/group.jpg"
+            src={GroupImage}
             alt="group-image"
             className="lg:h-full lg:w-auto size-4/5 rounded-lg shadow-lg border-4 border-orange-500"
           />
