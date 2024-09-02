@@ -41,12 +41,11 @@ const Header = () => (
         <div className="flex justify-center items-center lg:h-full lg:w-auto size-4/5">
           <BoxReveal>
             <img
-              src={groupImage}
+              src={GroupImage}
               alt="group-image"
               className=" rounded-lg shadow-lg border-2 border-[#1d2b51]"
             />
           </BoxReveal>
-
         </div>
       </div>
       <WhyUsBanner />
