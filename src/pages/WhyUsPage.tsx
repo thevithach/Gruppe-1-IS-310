@@ -67,7 +67,9 @@ const WhyUsPage = () => {
               className="size-4/5 rounded-lg shadow-lg border-4 border-orange-500"
             />
           </div>
-          <p className="text-base text-justify md:text-lg text-[#010203] leading-relaxed pt-10 px-7">
+          </BoxReveal>
+          <BoxReveal>
+          <p className="text-base text-justify md:text-lg text-[#010203] leading-relaxed px-7">
             Vi er en ivrig prosjektgruppe bestående av seks studenter som har
             bestemt seg for å samarbeide rundt vårt bachelorprosjekt. Gruppen
             har valgt å slutte seg sammen på bakgrunn av vårt store engasjement
@@ -84,7 +86,7 @@ const WhyUsPage = () => {
             utfylle hverandres ønsker og samtidig oppnå våre mål ved et gitt
             arbeid, og vi ser derfor frem til å vise dette til oppdragsgiver.
           </p>
-        </BoxReveal>
+          </BoxReveal>
       </div>
     </div>
   );
