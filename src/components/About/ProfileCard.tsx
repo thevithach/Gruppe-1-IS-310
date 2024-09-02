@@ -32,12 +32,13 @@ const ProfileCard: React.FC<ProfileProps> = ({
 }) => {
   return (
     <>
-      <div 
-      id="profile-section"
-      className="container mx-auto max-w-screen-lg min-h-min p-4 py-6 rounded-md ">
+      <div
+        id="profile-section"
+        className="container mx-auto max-w-screen-lg min-h-min p-4 py-6 rounded-md "
+      >
         <div className="flex lg:flex-row flex-col items-center lg:items-start lg:justify-normal justify-center lg:gap-8 gap-4">
           <div className="flex flex-col gap-2 w-1/2 justify-center items-center">
-            <div className=" self-center">
+            <div className="self-center">
               <img
                 src={imageUrl}
                 alt={name}

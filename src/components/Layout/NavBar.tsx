@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { scrollToProfileSection } from "../../util/scrollUtils";
 
 function NavBar() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -56,16 +56,18 @@ function NavBar() {
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
-            <li>
-                <a href="#header-section" 
+              <li>
+                <a
+                  href="#header-section"
                   className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                 >
                   Hjem
                 </a>
               </li>
               <li>
-                <a href="#profile-section" 
+                <a
                   className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
+                  onClick={scrollToProfileSection}
                 >
                   Om oss
                 </a>
