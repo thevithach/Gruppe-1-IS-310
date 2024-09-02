@@ -4,13 +4,15 @@ import GroupImage from "../../assets/group.jpg";
 
 const Header = () => (
   <>
-    <div className="relative md:py-40 max-w-screen-max mx-auto bg-[#fcf8f4]">
+    <div 
+    id="header-section"
+    className="relative md:py-40 max-w-screen-max mx-auto bg-[#fcf8f4]">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-32 h-32 md:w-64 md:h-64 bg-orange-500 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-orange-300 rounded-full transform -translate-x-1/2"></div>
         <div className="absolute top-1/2 right-0 w-48 h-32 md:w-96 md:h-64 bg-orange-200 opacity-30  transform -translate-x-1/2 -translate-y-1/2 rotate-12"></div>
-        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40  bg-indigo-950  rounded-full transform translate-x-1/2 translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 rounded-full transform translate-x-1/2 translate-y-1/2"></div>
       </div>
-      <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row  lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0">
+      <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0">
         <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start">
           <BoxReveal>
             <h2 className="text-lg md:text-md text-[#ff8949] font-medium text-center lg:text-left">

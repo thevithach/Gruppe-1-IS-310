@@ -1,18 +1,18 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
-  // State for toggling the mobile menu
+
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle the mobile menu
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <>
-      <nav className="bg-[#fcf8f4] border-b-2 border-[#11133c]">
-        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-4 lg:px-0 px-4 ">
+      <nav className="bg-[#fcf8f4] shadow-md fixed top-0 left-0 w-full z-50">
+        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           <a
             href="/"
@@ -57,18 +57,15 @@ function NavBar() {
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0 "
-                  aria-current="page"
+            <li>
+                <a href="#header-section" 
+                  className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                 >
                   Hjem
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
+                <a href="#profile-section" 
                   className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                 >
                   Om oss
@@ -78,6 +75,8 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      {/* Add padding to the top of the page content to avoid it being hidden behind the fixed navbar */}
+      <div className="pt-20"></div>
     </>
   );
 }
