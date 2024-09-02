@@ -1,6 +1,6 @@
 import BoxReveal from "../@/components/magicui/box-reveal";
 import WhyUsBanner from "./WhyUsBanner";
-import groupImage from "./../../assets/group.jpg";
+import GroupImage from "../../assets/group.jpg";
 
 const Header = () => (
   <>
@@ -46,6 +46,7 @@ const Header = () => (
               className=" rounded-lg shadow-lg border-2 border-[#1d2b51]"
             />
           </BoxReveal>
+
         </div>
       </div>
       <WhyUsBanner />
