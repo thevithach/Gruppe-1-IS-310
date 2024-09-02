@@ -16,9 +16,10 @@ const WhyUsPage = () => {
       ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
       ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
       ball.style.transform = `scale(${Math.random()})`;
-      ball.style.width = `${Math.random()}em`;
-      ball.style.height = ball.style.width;
-      ball.style.zIndex = 1; 
+      const size = `${Math.random()}em`;
+      ball.style.width = size;
+      ball.style.height = size;
+      ball.style.zIndex = "1";
 
       balls.push(ball);
       document.body.append(ball);

@@ -2,6 +2,7 @@ import ProfileCard from "./ProfileCard";
 import TheviBilde from "../../assets/thevi-profile.jpeg";
 import TonyBilde from "../../assets/tony-profile.jpg";
 import ThomasBilde from "../../assets/thomas.profile.jpg";
+import viktorBilde from "../../assets/viktor-profile.jpg"
 
 const About = () => {
   return (
@@ -133,26 +134,22 @@ const About = () => {
         name="Viktor"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
-        githubUrl="https://github.com/thevithach"
-        linkedinUrl="https://www.linkedin.com/in/vithethach/"
-        imageUrl={TheviBilde}
-        description="Vi The Thach er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        githubUrl="httpsgithub.comViktorJGK"
+        linkedinUrl="httpswww.linkedin.cominviktor-johan-glenne-kalhovd-4a0a14323"
+        imageUrl={viktorBilde}
+        description="Viktor Kalhovd, en 22 år gammel IT-student fra Egersund, har en sterk interesse for data, teknologi og problemløsning. Gjennom sitt studium ved Universitetet i Agder (UiA) har han utviklet en solid kompetanse innen IT, med en spesialisering i Full-Stack utvikling. Hans løsningsorienterte tilnærming, kombinert med en utholdende arbeidsmoral, har gitt ham en dyp forståelse av teknologiske utfordringer og de nødvendige ferdighetene for å løse komplekse problemer på en effektiv måte"
         skills={{
           frontend: [
-            "React",
             "TypeScript",
             "Tailwind",
-            "Redux",
-            "GraphQL",
             "CSS",
             "HTML",
           ],
-          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
+          backend: ["C#", "Java", "PHP", "Golang", "TypeScript"],
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
-          tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
+          tools: ["Docker", "Git", "npm", "Agile Methodology"],
         }}
-        additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-        personalWebsite="thevithach.vercel.app"
+        additionalInfo=""
       />
     </div>
   );
