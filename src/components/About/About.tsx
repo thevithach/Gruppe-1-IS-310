@@ -1,21 +1,11 @@
-import Header from "../components/Header/Header";
+import ProfileCard from "./ProfileCard";
+import TheviBilde from "../../assets/thevi-profile.jpeg";
+import TonyBilde from "../../assets/tony-profile.jpg";
+import ThomasBilde from "../../assets/thomas.profile.jpg";
 
-import About from "../components/About/About";
-import ProfileCard from "../components/About/ProfileCard";
-import TheviBilde from "../assets/thevi-profile.jpeg";
-import ThomasBilde from "../assets/thomas.profile.jpg";
-import TonyBilde from "../assets/tony-profile.jpg";
-
-const Home = () => {
+const About = () => {
   return (
-    <>
-      <Header />
-      <div className="border-t-2 border-[#11133c]">
-        <About />
-      </div>
-      <hr className="pb-2 border-orange-400" />
-
-      {/* Your page content goes here */}
+    <div className="flex flex-col pb-8 mt-8 bg-[#fcf8f4]">
       <ProfileCard
         name="Issa"
         title="Student | Full-Stack Utvikler"
@@ -69,18 +59,26 @@ const Home = () => {
         name="Omar"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
-        githubUrl="https://github.com/Omarp321"
-        linkedinUrl="https://www.linkedin.com/in/MÅFIKSES/"
+        githubUrl="https://github.com/thevithach"
+        linkedinUrl="https://www.linkedin.com/in/vithethach/"
         imageUrl={TheviBilde}
-        description="Omar Passi er en engasjert IT-student på 21 år fra Kristiansand, med en stor lidenskap for teknologi. Gjennom studietiden har Omar utviklet en solid kompetanse innen både front-end og back-end utvikling. Han kombinerer nysgjerrighet med sterk arbeidsetikk, og har en dyp interesse for å utvikle innovative løsninger. Omar trives med å løse komplekse problemer, og benytter sin analytiske ferdigheter og feilsøkingsevner for å finne de beste løsningene. For tiden er Omar i praksis hos Universitetet i Agder, hvor han får verdifull praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description="Vi The Thach er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
-          frontend: ["React", "JavaScript", "Bootstrap", "CSS", "HTML"],
-          backend: ["C#", "Java", "Python", "Golang", "PHP"],
-          database: ["MySQL", "MariaDB", "PostgreSQL", "MongoDB"],
-          tools: ["Docker", "Git"],
+          frontend: [
+            "React",
+            "TypeScript",
+            "Tailwind",
+            "Redux",
+            "GraphQL",
+            "CSS",
+            "HTML",
+          ],
+          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
+          database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
+          tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
         }}
-        additionalInfo="Omar er praksisstudent hos UiA høsten 2024, for mer informasjon besøk -"
-        personalWebsite="MÅ-LEGGE-INN-GOOGLE-SIDEN!!"
+        additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
+        personalWebsite="thevithach.vercel.app"
       />
       <ProfileCard
         name="Tony Nguyen Le"
@@ -113,7 +111,7 @@ const Home = () => {
         githubUrl="https://github.com/thevithach"
         linkedinUrl="https://www.linkedin.com/in/vithethach/"
         imageUrl={TheviBilde}
-        description="Vi The Thach er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description="Vi The Thach er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og innovative løsninger er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: [
             "React",
@@ -156,8 +154,8 @@ const Home = () => {
         additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
         personalWebsite="thevithach.vercel.app"
       />
-    </>
+    </div>
   );
 };
 
-export default Home;
+export default About;
