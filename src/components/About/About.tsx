@@ -2,7 +2,7 @@ import ProfileCard from "./ProfileCard";
 import TheviBilde from "../../assets/thevi-profile.jpeg";
 import TonyBilde from "../../assets/tony-profile.jpg";
 import ThomasBilde from "../../assets/thomas.profile.jpg";
-import viktorBilde from "../../assets/viktor-profile.jpg"
+import viktorBilde from "../../assets/viktor-profile.jpg";
 
 const About = () => {
   return (
@@ -65,13 +65,7 @@ const About = () => {
         imageUrl={TheviBilde}
         description="Omar Passi er en engasjert IT-student på 21 år fra Kristiansand, med en stor lidenskap for teknologi. Gjennom studietiden har Omar utviklet en solid kompetanse innen både front-end og back-end utvikling. Han kombinerer nysgjerrighet med sterk arbeidsetikk, og har en dyp interesse for å utvikle innovative løsninger. Omar trives med å løse komplekse problemer, og benytter sin analytiske ferdigheter og feilsøkingsevner for å finne de beste løsningene. For tiden er Omar i praksis hos Universitetet i Agder, hvor han får verdifull praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
-          frontend: [
-            "React",
-            "JavaScript",
-            "Bootstrap",
-            "CSS",
-            "HTML",
-          ],
+          frontend: ["React", "JavaScript", "Bootstrap", "CSS", "HTML"],
           backend: ["C#", "Java", "Python", "Golang", "PHP"],
           database: ["MySQL", "MariaDB", "PostgreSQL", "MongoDB"],
           tools: ["Docker", "Git"],
@@ -86,7 +80,7 @@ const About = () => {
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
         imageUrl={TonyBilde}
-        description="Tony Nguyen Le er en engasjert IT-student på 22 år fra Lillesand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description="Tony Nguyen Le er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: [
             "TypeScript",
@@ -98,7 +92,7 @@ const About = () => {
           ],
           backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
-          tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
+          tools: ["Docker", "Git", "npm", "DevOps Methodology", "Azure"],
         }}
         additionalInfo="Tony Nguyen Le er praksisstudent hos Swipload høsten 2024, for mer informasjon besøk -"
         personalWebsite="https://leworks.vercel.app/"
@@ -137,12 +131,7 @@ const About = () => {
         imageUrl={viktorBilde}
         description="Viktor Kalhovd, en 22 år gammel IT-student fra Egersund, har en sterk interesse for data, teknologi og problemløsning. Gjennom sitt studium ved Universitetet i Agder (UiA) har han utviklet en solid kompetanse innen IT, med en spesialisering i Full-Stack utvikling. Hans løsningsorienterte tilnærming, kombinert med en utholdende arbeidsmoral, har gitt ham en dyp forståelse av teknologiske utfordringer og de nødvendige ferdighetene for å løse komplekse problemer på en effektiv måte"
         skills={{
-          frontend: [
-            "TypeScript",
-            "Tailwind",
-            "CSS",
-            "HTML",
-          ],
+          frontend: ["TypeScript", "Tailwind", "CSS", "HTML"],
           backend: ["C#", "Java", "PHP", "Golang", "TypeScript"],
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
           tools: ["Docker", "Git", "npm", "Agile Methodology"],
