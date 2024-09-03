@@ -14,7 +14,7 @@ function NavBar() {
         <div  className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           <a
-            href="#header-section"
+            href="#home"
             className="flex text-[#181819] hover:text-opacity-65 items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="text-2xl font-semibold whitespace-nowrap ">
@@ -58,7 +58,7 @@ function NavBar() {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
               <li>
                 <a
-                  href="#header-section"
+                  href="#home"
                   className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                 >
                   Hjem
@@ -66,6 +66,7 @@ function NavBar() {
               </li>
               <li>
                 <a
+                  href="#about"
                   className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                   onClick={scrollToProfileSection}
                 >

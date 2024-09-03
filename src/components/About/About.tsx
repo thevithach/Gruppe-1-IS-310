@@ -84,7 +84,7 @@ const About = () => {
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
         imageUrl={TonyBilde}
-        description= " er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
+        description=" er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: [
             "React",
@@ -101,32 +101,34 @@ const About = () => {
         additionalInfo="Lær mer om Tony Nguyen Le og hans prosjekter ved å besøke nettsiden hans via -"
         personalWebsite="https://leworks.vercel.app/"
       />
-      <ProfileCard
-        name="Vi The Thach"
-        nameBold="Vi The Thach"
-        title="Student | Full-Stack Utvikler"
-        university="Universitet i Agder"
-        githubUrl="https://github.com/thevithach"
-        linkedinUrl="https://www.linkedin.com/in/vithethach/"
-        imageUrl={TheviBilde}
-        description=" er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og innovative løsninger er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
-        skills={{
-          frontend: [
-            "React",
-            "TypeScript",
-            "Tailwind",
-            "Redux",
-            "GraphQL",
-            "CSS",
-            "HTML",
-          ],
-          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
-          database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
-          tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
-        }}
-        additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-        personalWebsite="https://thevithach.vercel.app"
-      />
+      <div id="#home">
+        <ProfileCard
+          name="Vi The Thach"
+          nameBold="Vi The Thach"
+          title="Student | Full-Stack Utvikler"
+          university="Universitet i Agder"
+          githubUrl="https://github.com/thevithach"
+          linkedinUrl="https://www.linkedin.com/in/vithethach/"
+          imageUrl={TheviBilde}
+          description=" er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og innovative løsninger er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+          skills={{
+            frontend: [
+              "React",
+              "TypeScript",
+              "Tailwind",
+              "Redux",
+              "GraphQL",
+              "CSS",
+              "HTML",
+            ],
+            backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
+            database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
+            tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
+          }}
+          additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
+          personalWebsite="https://thevithach.vercel.app"
+        />
+      </div>
       <ProfileCard
         name="Viktor"
         nameBold="Viktor Kalhovd"
