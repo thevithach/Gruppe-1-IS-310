@@ -2,6 +2,7 @@ import React from "react";
 
 interface ProfileProps {
   name: string;
+  nameBold?: string;
   title: string;
   university: string;
   githubUrl: string;
@@ -20,6 +21,7 @@ interface ProfileProps {
 
 const ProfileCard: React.FC<ProfileProps> = ({
   name,
+  nameBold,
   title,
   university,
   githubUrl,
@@ -71,7 +73,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
           </div>
           <div className="w-full">
             <div className="px-4">
-              <p className="text-gray-800">{description}</p>
+              <p className="text-gray-800"><strong>{nameBold}</strong>{description}</p>
               <h2 className="py-2 font-semibold">
                 Relevante IT-kompetanseområder inkluderer:
               </h2>
@@ -95,7 +97,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
               </ul>
               <p className="py-2">
                 {additionalInfo}{" "}
-                <a href={personalWebsite} className="text-blue-500">
+                <a href={personalWebsite} className="text-blue-500 hover:text-orange-500 transition-colors duration-200">
                   {personalWebsite}
                 </a>
               </p>
