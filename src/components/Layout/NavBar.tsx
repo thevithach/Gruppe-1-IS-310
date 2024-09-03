@@ -11,10 +11,10 @@ function NavBar() {
   return (
     <>
       <nav className="bg-[#fcf8f4] shadow-md fixed top-0 left-0 w-full z-50">
-        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
+        <div  className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           <a
-            href="/"
+            href="#header-section"
             className="flex text-[#181819] hover:text-opacity-65 items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="text-2xl font-semibold whitespace-nowrap ">
