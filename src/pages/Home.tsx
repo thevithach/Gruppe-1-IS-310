@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="border-t-2 border-[#11133c]">
+      <div className="border-t-2 border-[#11133c]" id="profile-section">
         <About />
       </div>
     </>
