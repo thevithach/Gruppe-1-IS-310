@@ -75,11 +75,7 @@ const About = () => {
           tools: ["Docker", "Git"],
         }}
         additionalInfo="Omar er praksisstudent hos UiA høsten 2024, for mer informasjon besøk -"
-        personalWebsite={
-            <a href="https://sites.google.com/view/UiA-Praksisprosjekt">
-                Praksisprosjekt
-            </a>
-        }
+        personalWebsite="https://sites.google.com/view/UiA-Praksisprosjekt"
       />
       <ProfileCard
         name="Tony Nguyen Le"
