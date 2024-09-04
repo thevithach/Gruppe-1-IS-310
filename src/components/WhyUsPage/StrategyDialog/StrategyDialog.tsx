@@ -35,7 +35,7 @@ export function StrategyDialog({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <p className="cursor-pointer pt-2 underline w-14 hover:opacity-80">
+        <p className="cursor-pointer pt-2 underline w-14 hover:opacity-50">
           Se mer
         </p>
       </DialogTrigger>
