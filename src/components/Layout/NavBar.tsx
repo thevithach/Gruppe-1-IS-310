@@ -17,7 +17,7 @@ function NavBar() {
   return (
     <>
       <nav className="bg-[#fcf8f4] shadow-md fixed top-0 left-0 w-full z-50">
-        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
+        <div  className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           {location.pathname === "/HvorforOss" ? (
             <Link
@@ -38,6 +38,7 @@ function NavBar() {
               </span>
             </a>
           )}
+
 
           {/* Button to toggle mobile menu */}
           <button
@@ -112,6 +113,7 @@ function NavBar() {
                   </li>
                 </>
               )}
+
             </ul>
           </div>
         </div>
