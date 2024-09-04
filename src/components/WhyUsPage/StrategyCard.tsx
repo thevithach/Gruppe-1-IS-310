@@ -1,4 +1,4 @@
-import { StrategyDialog } from "./justTestin";
+import { StrategyDialog } from "./StrategyDialog/StrategyDialog";
 
 interface DialogContent {
   title: string;

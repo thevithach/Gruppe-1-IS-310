@@ -39,7 +39,7 @@ export function StrategyDialog({
           Se mer
         </p>
       </DialogTrigger>
-      <DialogContent className="w-full sm:max-w-[600px]">
+      <DialogContent className="w-3/4 overflow-scroll sm:overflow-auto sm:max-w-[600px] h-4/5 sm:h-auto rounded-md">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
           <DialogDescription>{shortDescription}</DialogDescription>

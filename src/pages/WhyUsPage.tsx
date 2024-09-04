@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import GroupImage from "../assets/group.jpg";
 import BoxReveal from "../components/@/components/magicui/box-reveal";
 import "./WhyUsPage.css";
-import StrategyCard from "../components/StrategyCard";
+import StrategyCard from "../components/WhyUsPage/StrategyCard";
 import {
   collaborationAndToolsContent,
   qualityAndImprovementContent,
   scrumDialogContent,
-} from "@/components/strategyDialogContent";
+} from "../components/WhyUsPage/StrategyDialog/strategyDialogContent";
 
 const WhyUsPage = () => {
   useEffect(() => {
