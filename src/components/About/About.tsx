@@ -7,7 +7,7 @@ import OmarBilde from "../../assets/omar-profile.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col pb-8 mt-8 bg-[#fcf8f4]">
+    <div id="#about" className="flex flex-col pb-8 mt-8 bg-[#fcf8f4]">
       <ProfileCard
         name="Issa"
         nameBold="Issa"

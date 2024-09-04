@@ -34,7 +34,7 @@ function NavBar() {
             </Link>
           ) : (
             <a
-              href="#header-section"
+              href="#home"
               className="flex text-[#181819] hover:text-opacity-65 items-center space-x-3 rtl:space-x-reverse"
             >
               <span className="text-2xl font-semibold whitespace-nowrap ">
@@ -76,14 +76,14 @@ function NavBar() {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-600 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
               {location.pathname === "/HvorforOss" ? (
                 <>
                   <li>
                     <Link
                       to="/"
                       onClick={scrollToHomeSection}
-                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
+                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0 "
                     >
                       Hjem
                     </Link>
@@ -91,7 +91,7 @@ function NavBar() {
                   <li>
                     <button
                       onClick={handleOmOssClick}
-                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0 cursor-pointer"
+                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0 "
                     >
                       Om oss
                     </button>
@@ -101,7 +101,7 @@ function NavBar() {
                 <>
                   <li>
                     <a
-                      href="#header-section"
+                      href="#home"
                       className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                     >
                       Hjem
@@ -109,7 +109,8 @@ function NavBar() {
                   </li>
                   <li>
                     <a
-                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0 cursor-pointer"
+                      href="#about"
+                      className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                       onClick={scrollToProfileSection}
                     >
                       Om oss
