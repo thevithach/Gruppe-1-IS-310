@@ -62,7 +62,7 @@ const WhyUsPage = () => {
   return (
     <>
       <div
-        className="relative md:py-16 max-w-screen-xl mx-auto bg-[#fcf8f4] overflow-hidden"
+        className="relative md:py-16 max-w-screen-max mx-auto bg-[#fcf8f4] overflow-hidden"
         id="ball-container"
       >
         <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0 content-container">
