@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { scrollToProfileSection } from "../../util/scrollUtils";
+import {
+  scrollToHomeSection,
+  scrollToProfileSection,
+} from "../../util/scrollUtils";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function NavBar() {
@@ -17,11 +20,12 @@ function NavBar() {
   return (
     <>
       <nav className="bg-[#fcf8f4] shadow-md fixed top-0 left-0 w-full z-50">
-        <div  className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
+        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-5 lg:px-0 px-4 ">
           {/* Brand Name as a clickable link */}
           {location.pathname === "/HvorforOss" ? (
             <Link
               to="/"
+              onClick={scrollToHomeSection}
               className="flex text-[#181819] hover:text-opacity-65 items-center space-x-3 rtl:space-x-reverse"
             >
               <span className="text-2xl font-semibold whitespace-nowrap ">
@@ -38,7 +42,6 @@ function NavBar() {
               </span>
             </a>
           )}
-
 
           {/* Button to toggle mobile menu */}
           <button
@@ -79,6 +82,7 @@ function NavBar() {
                   <li>
                     <Link
                       to="/"
+                      onClick={scrollToHomeSection}
                       className="block py-2 px-3 text-[#181819] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0"
                     >
                       Hjem
@@ -113,13 +117,11 @@ function NavBar() {
                   </li>
                 </>
               )}
-
             </ul>
           </div>
         </div>
       </nav>
-      {/* Add padding to the top of the page content to avoid it being hidden behind the fixed navbar */}
-      <div className="pt-20"></div>
+      <div className="pt-20" id="header-section"></div>
     </>
   );
 }
