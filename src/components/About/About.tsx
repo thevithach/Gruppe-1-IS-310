@@ -9,30 +9,28 @@ const About = () => {
   return (
     <div id="#about" className="flex flex-col pb-8 mt-8 bg-[#fcf8f4]">
       <ProfileCard
-        name="Issa"
-        nameBold="Issa"
+        name="Issa Al-Musawi"
+        nameBold="Issa Al-Musawi"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
-        githubUrl="https://github.com/thevithach"
-        linkedinUrl="https://www.linkedin.com/in/vithethach/"
+        githubUrl="https://github.com/issaalmusawi"
+        linkedinUrl="https://www.linkedin.com/in/issa-al-musawi-77684b96/"
         imageUrl={TheviBilde}
-        description=" er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og solide feilsøkingsevner, er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description=" er en engasjert IT-student på 29 år fra Kristiansand, med en dyp interesse for teknologi, problemløsning og ledelse. Han har fra tidligere en bachelorgrad i statsvitenskap, og har gjennom IT studiet også utviklet en bred kompetanse innen IT og informasjonssystemer, med spesielt fokus på Full-Stack utvikling. Med erfaringer fra arbeidslivet og tidligere studier har Issa opparbeidet seg evnen til å tenke analytisk, samt utviklet en sterk teknisk og teoretisk forståelse for de ulike omgivelsene han befinner seg i. Issa er alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap, der han kombinerer nysgjerrighet med viljen til å lære, og ser på hver oppgave som en mulighet til å utvikle seg."
         skills={{
           frontend: [
-            "React",
-            "TypeScript",
+            "JavaScript",
             "Tailwind",
-            "Redux",
-            "GraphQL",
+            "Bootstrap",
             "CSS",
             "HTML",
           ],
-          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
-          database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
-          tools: ["Docker", "Git", "npm", "Agile Methodology", "Azure"],
+          backend: ["C#", "Java", "PHP", "Golang"],
+          database: ["MySQL", "MariaDB"],
+          tools: ["Docker", "Git", "npm", "Agile Methodology", "CLI"],
         }}
-        additionalInfo="Vi The Thach er praksisstudent hos Phonero høsten 2024, for mer informasjon besøk -"
-        personalWebsite="thevithach.vercel.app"
+        additionalInfo=""
+        personalWebsite=""
       />
       <ProfileCard
         name="Nhan Thomas Trong Nguyen"
