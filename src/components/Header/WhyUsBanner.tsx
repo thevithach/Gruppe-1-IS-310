@@ -7,7 +7,7 @@ const WhyUsBanner = () => {
       <BoxReveal>
         <Link to="/HvorforOss">
           <div className="max-w-6xl lg:max-w-xl lg:w-full w-4/5 mx-auto">
-            <div className="bg-white shadow-[0_2px_10px_0_rgba(0,0,0,0.1)] relative ">
+            <div className="bg-white shadow-[0_2px_10px_0_rgba(0,0,0,0.1)] relative group">
               <div>
                 <div className="p-2 px-4">
                   <span className="rounded-md inline-block mb-3 lg:mb-0 py-1 px-2.5 mt-0.5 uppercase text-[9px] font-heading font-semibold tracking-wider text-orange-500 bg-orange-100">
