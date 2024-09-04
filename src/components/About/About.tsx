@@ -3,6 +3,7 @@ import TheviBilde from "../../assets/thevi-profile.jpeg";
 import TonyBilde from "../../assets/tony-profile.jpg";
 import ThomasBilde from "../../assets/thomas.profile.jpg";
 import viktorBilde from "../../assets/viktor-profile.jpg";
+import OmarBilde from "../../assets/omar-profile.jpg";
 
 const About = () => {
   return (
@@ -59,13 +60,13 @@ const About = () => {
         personalWebsite="https://nthomtng.github.io/PraksisNettSide/"
       />
       <ProfileCard
-        name="Omar"
+        name="Omar Passi"
         nameBold="Omar Passi"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
-        githubUrl="https://github.com/thevithach"
-        linkedinUrl="https://www.linkedin.com/in/vithethach/"
-        imageUrl={TheviBilde}
+        githubUrl="https://github.com/Omarp321"
+        linkedinUrl="https://www.linkedin.com/in/omarpassi1/"
+        imageUrl={OmarBilde}
         description=" er en engasjert IT-student på 21 år fra Kristiansand, med en stor lidenskap for teknologi. Gjennom studietiden har Omar utviklet en solid kompetanse innen både front-end og back-end utvikling. Han kombinerer nysgjerrighet med sterk arbeidsetikk, og har en dyp interesse for å utvikle innovative løsninger. Omar trives med å løse komplekse problemer, og benytter sin analytiske ferdigheter og feilsøkingsevner for å finne de beste løsningene. For tiden er Omar i praksis hos Universitetet i Agder, hvor han får verdifull praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: ["React", "JavaScript", "Bootstrap", "CSS", "HTML"],
@@ -74,7 +75,11 @@ const About = () => {
           tools: ["Docker", "Git"],
         }}
         additionalInfo="Omar er praksisstudent hos UiA høsten 2024, for mer informasjon besøk -"
-        personalWebsite="MÅ-LEGGE-INN-GOOGLE-SIDEN!!"
+        personalWebsite={
+            <a href="https://sites.google.com/view/UiA-Praksisprosjekt">
+                Praksisprosjekt
+            </a>
+        }
       />
       <ProfileCard
         name="Tony Nguyen Le"
