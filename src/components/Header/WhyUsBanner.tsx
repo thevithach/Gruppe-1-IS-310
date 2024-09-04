@@ -126,4 +126,5 @@ const WhyUsBanner = () => {
   );
 };
 
+
 export default WhyUsBanner;

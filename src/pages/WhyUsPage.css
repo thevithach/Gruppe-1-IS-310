@@ -1,11 +1,21 @@
 .ball {
-    position: absolute;
-    border-radius: 100%;
-    opacity: 0.7;
-    z-index: 1; 
-  }
-  
-  .content-container {
-    position: relative;
-    z-index: 10; 
-  }
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 10;
+}
+
+.fa-brands {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.fa-brands:hover {
+  transform: scale(1.2);
+  filter: brightness(0.8);
+}

@@ -115,7 +115,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
             transition: transform 0.3s ease, filter 0.3s ease;
           }
           .fa-brands:hover {
-            transform: scale(1.4);
+            transform: scale(1.2);
             filter: brightness(0.8);
           }
         `}

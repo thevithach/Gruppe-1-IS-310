@@ -108,6 +108,7 @@ const About = () => {
       />
       <ProfileCard
         name="Vi The Thach"
+        nameBold="Vi The Thach"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
         githubUrl="https://github.com/thevithach"
