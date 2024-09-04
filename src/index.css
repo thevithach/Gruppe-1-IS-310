@@ -5,3 +5,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+.gradient-border {
+  border: 0, 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #f97316, #f59e0b);
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
