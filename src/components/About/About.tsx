@@ -79,13 +79,13 @@ const About = () => {
       />
       <ProfileCard
         name="Tony Nguyen Le"
-        nameBold="Tony Nguyen Le"
+        nameBold="Tony Nguyen Le "
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
         imageUrl={TonyBilde}
-        description=" er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
+        description="er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
         skills={{
           frontend: [
             "React",
@@ -95,7 +95,7 @@ const About = () => {
             "CSS",
             "HTML",
           ],
-          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
+          backend: ["C#", "Java", "Python", "Golang", "TypeScript", "PHP"],
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
           tools: ["Docker", "Git", "npm", "DevOps Methodology", "Azure"],
         }}
