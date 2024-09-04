@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import BoxReveal from "../@/components/magicui/box-reveal";
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
+
 const WhyUsBanner = () => {
   return (
     <div className="container max-w-screen-lg mx-auto pb-8 md:pt-8 flex justify-center lg:block p-0">
       <BoxReveal>
-        <Link to="/HvorforOss">
+        <Link to="/HvorforOss" onClick={scrollToTop}>
           <div className="max-w-6xl lg:max-w-xl lg:w-full w-4/5 mx-auto">
             <div className="bg-white shadow-[0_2px_10px_0_rgba(0,0,0,0.1)] relative group">
               <div>
@@ -125,6 +129,5 @@ const WhyUsBanner = () => {
     </div>
   );
 };
-
 
 export default WhyUsBanner;
