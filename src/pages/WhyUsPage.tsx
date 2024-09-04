@@ -14,21 +14,23 @@ const WhyUsPage = () => {
     const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
     const numBalls = 25;
     const balls: HTMLDivElement[] = [];
+    const container = document.getElementById("ball-container");
 
     for (let i = 0; i < numBalls; i++) {
       let ball = document.createElement("div");
       ball.classList.add("ball");
       ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-      ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-      ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+      ball.style.left = `${Math.floor(Math.random() * 100)}%`;
+      ball.style.top = `${Math.floor(Math.random() * 100)}%`;
       ball.style.transform = `scale(${Math.random()})`;
       const size = `${Math.random()}em`;
       ball.style.width = size;
       ball.style.height = size;
+      ball.style.position = "absolute";
       ball.style.zIndex = "1";
 
       balls.push(ball);
-      document.body.append(ball);
+      container?.append(ball);
     }
 
     balls.forEach((el, i) => {
@@ -59,7 +61,10 @@ const WhyUsPage = () => {
 
   return (
     <>
-      <div className="relative md:py-16 max-w-screen-xl mx-auto bg-[#fcf8f4]">
+      <div
+        className="relative md:py-16 max-w-screen-xl mx-auto bg-[#fcf8f4] overflow-hidden"
+        id="ball-container"
+      >
         <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0 content-container">
           <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1">
             Hvorfor velge oss?
