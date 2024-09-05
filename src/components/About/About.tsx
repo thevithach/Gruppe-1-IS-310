@@ -4,6 +4,7 @@ import TonyBilde from "../../assets/tony-profile.jpg";
 import ThomasBilde from "../../assets/thomas.profile.jpg";
 import viktorBilde from "../../assets/viktor-profile.jpg";
 import OmarBilde from "../../assets/omar-profile.jpg";
+import issaBilde from "../../assets/issa-profile.jpg";
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
         university="Universitet i Agder"
         githubUrl="https://github.com/issaalmusawi"
         linkedinUrl="https://www.linkedin.com/in/issa-al-musawi-77684b96/"
-        imageUrl={TheviBilde}
+        imageUrl={issaBilde}
         description=" er en engasjert IT-student på 29 år fra Kristiansand, med en dyp interesse for teknologi, problemløsning og ledelse. Han har fra tidligere en bachelorgrad i statsvitenskap, og har gjennom IT studiet også utviklet en bred kompetanse innen IT og informasjonssystemer, med spesielt fokus på Full-Stack utvikling. Med erfaringer fra arbeidslivet og tidligere studier har Issa opparbeidet seg evnen til å tenke analytisk, samt utviklet en sterk teknisk og teoretisk forståelse for de ulike omgivelsene han befinner seg i. Issa er alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap, der han kombinerer nysgjerrighet med viljen til å lære, og ser på hver oppgave som en mulighet til å utvikle seg."
         skills={{
           frontend: [
