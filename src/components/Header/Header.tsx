@@ -1,6 +1,6 @@
 import BoxReveal from "../@/components/magicui/box-reveal";
 import WhyUsBanner from "./WhyUsBanner";
-import GroupImage from "../../assets/Gruppebilde.webp";
+import GroupImage from "../../assets/group0.png";
 
 const Header = () => (
   <>
