@@ -74,7 +74,7 @@ const WhyUsPage = () => {
               <img
                 src={GroupImage}
                 alt="group-image"
-                className="size-4/5 rounded-lg shadow-lg border-2 border-orange-500"
+                className="lg:w-1/2 md:w-2/5 w-4/5 rounded-lg shadow-lg border-2 border-orange-500"
               />
             </div>
           </BoxReveal>
