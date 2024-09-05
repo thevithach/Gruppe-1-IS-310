@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import GroupImage from "../assets/group.jpg";
+import GroupImage from "../assets/group2.jpg";
 import BoxReveal from "../components/@/components/magicui/box-reveal";
 import "./WhyUsPage.css";
 import StrategyCard from "../components/WhyUsPage/StrategyCard";

@@ -36,7 +36,7 @@ const About = () => {
       <ProfileCard
         name="Nhan Thomas Trong Nguyen"
         nameBold="Nhan Thomas"
-        title="Student | Full-Stack Utvikler"
+        title="Student | Frontend Utvikler"
         university="Universitet i Agder"
         githubUrl="https://github.com/NThomTNg"
         linkedinUrl="https://www.linkedin.com/in/nhan-thomas-nguyen-024860253/"
