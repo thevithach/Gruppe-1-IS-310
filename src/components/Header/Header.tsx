@@ -1,6 +1,6 @@
 import BoxReveal from "../@/components/magicui/box-reveal";
 import WhyUsBanner from "./WhyUsBanner";
-import GroupImage from "../../assets/group.jpg";
+import GroupImage from "../../assets/Gruppebilde.webp";
 
 const Header = () => (
   <>
@@ -14,7 +14,7 @@ const Header = () => (
         <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 rounded-full transform translate-x-1/2 translate-y-1/2"></div>
       </div>
       <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0">
-        <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start">
+        <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:w-4/5">
           <BoxReveal>
             <h2 className="text-lg md:text-md text-[#ff8949] font-medium text-center lg:text-left">
               Gruppe 1
@@ -41,7 +41,7 @@ const Header = () => (
             </BoxReveal>
           </div>
         </div>
-        <div className="flex justify-center items-center lg:h-full lg:w-auto size-4/5">
+        <div className="flex justify-center items-center size-4/5">
           <BoxReveal>
             <img
               src={GroupImage}
