@@ -13,7 +13,7 @@ export const scrollToProfileSection = () => {
 };
 
 export const scrollToHomeSection = () => {
-  const element = document.getElementById("header-section");
+  const element = document.getElementById("home");
   const offset = 0;
   const bodyRect = document.body.getBoundingClientRect().top;
   const elementRect = element?.getBoundingClientRect().top || 0;

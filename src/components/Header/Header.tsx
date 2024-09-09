@@ -6,7 +6,7 @@ const Header = () => (
   <>
     <div
       id="home"
-      className="relative md:py-40 max-w-screen-max mx-auto bg-[#fcf8f4]"
+      className="relative sm:pt-12 sm:pb-8 pb-8 max-w-screen-max mx-auto bg-[#fcf8f4]"
     >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-orange-300 rounded-full transform -translate-x-1/2"></div>

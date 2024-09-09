@@ -122,7 +122,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
-      <div className="pt-20" id="header-section"></div>
+      <div className="pt-20" id="home"></div>
     </>
   );
 }
