@@ -130,12 +130,12 @@ const About = () => {
       />
 
       <ProfileCard
-        name="Viktor"
-        nameBold="Viktor Kalhovd"
+        name="Viktor Johan Kalhovd"
+        nameBold="Viktor Johan Kalhovd"
         title="Student | Full-Stack Utvikler"
         university="Universitet i Agder"
-        githubUrl="httpsgithub.comViktorJGK"
-        linkedinUrl="httpswww.linkedin.cominviktor-johan-glenne-kalhovd-4a0a14323"
+        githubUrl="https://github.com/ViktorJGK"
+        linkedinUrl="https://www.linkedin.com/in/viktor-johan-glenne-kalhovd-4a0a14323/"
         imageUrl={viktorBilde}
         description=", en 22 år gammel IT-student fra Egersund, har en sterk interesse for data, teknologi og problemløsning. Gjennom sitt studium ved Universitetet i Agder (UiA) har han utviklet en solid kompetanse innen IT, med en spesialisering i Full-Stack utvikling. Hans løsningsorienterte tilnærming, kombinert med en utholdende arbeidsmoral, har gitt ham en dyp forståelse av teknologiske utfordringer og de nødvendige ferdighetene for å løse komplekse problemer på en effektiv måte"
         skills={{
