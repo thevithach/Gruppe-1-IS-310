@@ -19,13 +19,7 @@ const About = () => {
         imageUrl={issaBilde}
         description=" er en engasjert IT-student på 29 år fra Kristiansand, med en dyp interesse for teknologi, problemløsning og ledelse. Han har fra tidligere en bachelorgrad i statsvitenskap, og har gjennom IT studiet også utviklet en bred kompetanse innen IT og informasjonssystemer, med spesielt fokus på Full-Stack utvikling. Med erfaringer fra arbeidslivet og tidligere studier har Issa opparbeidet seg evnen til å tenke analytisk, samt utviklet en sterk teknisk og teoretisk forståelse for de ulike omgivelsene han befinner seg i. Issa er alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap, der han kombinerer nysgjerrighet med viljen til å lære, og ser på hver oppgave som en mulighet til å utvikle seg."
         skills={{
-          frontend: [
-            "JavaScript",
-            "Tailwind",
-            "Bootstrap",
-            "CSS",
-            "HTML",
-          ],
+          frontend: ["JavaScript", "Tailwind", "Bootstrap", "CSS", "HTML"],
           backend: ["C#", "Java", "PHP", "Golang"],
           database: ["MySQL", "MariaDB"],
           tools: ["Docker", "Git", "npm", "Agile Methodology", "CLI"],
@@ -84,7 +78,7 @@ const About = () => {
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
         imageUrl={TonyBilde}
-        description="er en 22 år gammel IT-student fra Lillesand med en stor lidenskap for teknologi og problemløsning. Han har bygget en solid kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med skarp analytisk tenkning og sterke feilsøkingsevner, er Tony alltid klar for nye utfordringer og muligheter til å lære. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser hver oppgave som en sjanse til å vokse. For tiden er han praksisstudent hos Swipload, hvor han videreutvikler sine ferdigheter innen programvareutvikling."
+        description=" er en 22 år gammel IT-student fra Lillesand med en dyp lidenskap for teknologi og en sterk interesse for problemløsning. Gjennom sitt studium ved Universitetet i Agder og sin rolle som styreleder i NITO Studentene Kristiansand, har han utviklet omfattende kompetanse innen full-stack utvikling og teknologi. Han er kjent for sin analytiske tilnærming, sterke feilsøkingsevner, og evne til å lede og samarbeide effektivt. Han har også erfaring som læringsassistent, som har gitt ham en dyp forståelse av komplekse teknologiske utfordringer og et solid fundament i programvareutvikling. I sin nåværende praksis hos Swipload Technologies AS er han involvert i spennende prosjekter som gir ham muligheten til å anvende og videreutvikle sine ferdigheter i en profesjonell setting. Han kombinerer sin nysgjerrighet med en sterk arbeidsetikk og ser hver oppgave som en mulighet til å vokse og forbedre seg."
         skills={{
           frontend: [
             "React",
@@ -98,7 +92,7 @@ const About = () => {
           database: ["MySQL", "MariaDB", "PostgreSQL", "MS SQL"],
           tools: ["Docker", "Git", "npm", "DevOps Methodology", "Azure"],
         }}
-        additionalInfo="Lær mer om Tony Nguyen Le og hans prosjekter ved å besøke nettsiden hans via -"
+        additionalInfo="For mer informasjon om Tony Nguyen Le og hans prosjekter, besøk nettsiden hans:"
         personalWebsite="https://leworks.vercel.app/"
       />
       <ProfileCard
