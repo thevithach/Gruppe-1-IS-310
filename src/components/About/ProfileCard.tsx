@@ -44,7 +44,8 @@ const ProfileCard: React.FC<ProfileProps> = ({
               <img
                 src={imageUrl}
                 alt={name}
-                className="w-full max-w-[300px]  rounded-full border"
+                loading="lazy"
+                className="w-[200px] md:w-[300px] max-w-[300px]  rounded-full border"
               />
             </div>
             <div className="flex flex-col justify-center">
@@ -74,7 +75,10 @@ const ProfileCard: React.FC<ProfileProps> = ({
           </div>
           <div className="w-full">
             <div className="px-4">
-              <p className="text-gray-800"><strong>{nameBold}</strong>{description}</p>
+              <p className="text-gray-800">
+                <strong>{nameBold}</strong>
+                {description}
+              </p>
               <h2 className="py-2 font-semibold">
                 Relevante IT-kompetanseområder inkluderer:
               </h2>
@@ -98,7 +102,10 @@ const ProfileCard: React.FC<ProfileProps> = ({
               </ul>
               <p className="py-2">
                 {additionalInfo}{" "}
-                <a href={personalWebsite} className="text-blue-500 hover:text-orange-500 transition-colors duration-200">
+                <a
+                  href={personalWebsite}
+                  className="text-blue-500 hover:text-orange-500 transition-colors duration-200"
+                >
                   {personalWebsite}
                 </a>
               </p>

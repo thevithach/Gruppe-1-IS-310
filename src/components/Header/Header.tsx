@@ -46,7 +46,8 @@ const Header = () => (
             <img
               src={GroupImage}
               alt="group-image"
-              className=" rounded-lg shadow-lg border-2 border-[#1d2b51]"
+              loading="lazy"
+              className="lg:w-[480px] rounded-lg shadow-lg border-2 border-[#1d2b51]"
             />
           </BoxReveal>
         </div>
