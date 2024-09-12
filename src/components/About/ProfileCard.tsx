@@ -46,7 +46,8 @@ const ProfileCard: React.FC<ProfileProps> = ({
               <img
                 src={imageUrl}
                 alt={name}
-                className="w-full max-w-[300px]  rounded-full border"
+                loading="lazy"
+                className="w-[200px] md:w-[300px] max-w-[300px]  rounded-full border"
               />
             </div>
             <div className="flex flex-col justify-center">
