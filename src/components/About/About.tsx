@@ -79,7 +79,8 @@ const About = () => {
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
         imageUrl={TonyBilde}
-        description=" er en 22 år gammel IT-student fra Lillesand med en dyp lidenskap for teknologi og en sterk interesse for problemløsning. Gjennom sitt studium ved Universitetet i Agder og sin rolle som styreleder i NITO Studentene Kristiansand, har han utviklet omfattende kompetanse innen full-stack utvikling og teknologi. Han er kjent for sin analytiske tilnærming, sterke feilsøkingsevner, og evne til å lede og samarbeide effektivt. Han har også erfaring som læringsassistent, som har gitt ham en dyp forståelse av komplekse teknologiske utfordringer og et solid fundament i programvareutvikling. I sin nåværende praksis hos Swipload Technologies AS er han involvert i spennende prosjekter som gir ham muligheten til å anvende og videreutvikle sine ferdigheter i en profesjonell setting. Han kombinerer sin nysgjerrighet med en sterk arbeidsetikk og ser hver oppgave som en mulighet til å vokse og forbedre seg."
+        description=" er en 22 år gammel IT-student fra Lillesand med en dyp lidenskap for teknologi og en sterk interesse for problemløsning. Gjennom sitt studium ved Universitetet i Agder og sin rolle som styreleder i NITO Studentene Kristiansand, har han utviklet omfattende kompetanse innen full-stack utvikling og teknologi. Han er kjent for sin analytiske tilnærming, sterke feilsøkingsevner, og evne til å lede og samarbeide effektivt. Han har også erfaring som læringsassistent, som har gitt ham en dyp forståelse av komplekse teknologiske utfordringer og et solid fundament i programvareutvikling."
+        descriptionSecondParagraph="I sin nåværende praksis hos Swipload Technologies AS er han involvert i spennende prosjekter som gir ham muligheten til å anvende og videreutvikle sine ferdigheter i en profesjonell setting. Han kombinerer sin nysgjerrighet med en sterk arbeidsetikk og ser hver oppgave som en mulighet til å vokse og forbedre seg."
         skills={{
           frontend: [
             "React",
@@ -104,7 +105,8 @@ const About = () => {
         githubUrl="https://github.com/thevithach"
         linkedinUrl="https://www.linkedin.com/in/vithethach/"
         imageUrl={TheviBilde}
-        description="er en engasjert IT-student på 24 år fra Kristiansand, med en dyp interesse for teknologi og problemløsning. Han har utviklet en bred kompetanse innen IT, med spesielt fokus på Full-Stack utvikling. Med analytisk tenkning, sterk teknisk forståelse, og innovative løsninger er Vi alltid klar til å påta seg nye utfordringer og tilegne seg ny kunnskap. Han kombinerer nysgjerrighet med en sterk arbeidsetikk, og ser på hver oppgave som en mulighet til å utvikle seg. For tiden er Vi i praksis hos Phonero, hvor han får praktisk erfaring og videreutvikler sine ferdigheter innen programvareutvikling."
+        description=" er en lidenskapelig full-stack utviklerentusiast med allsidig arbeidserfaring som assistenthjelpepleier, mentor og læringsassistent, samt systemutvikler hos Phonero. Denne unike bakgrunnen har gitt ham en sterk forståelse for samspillet mellom mennesker og teknologi. Erfaringen som hjelpende pleier har utviklet hans empati og evne til å jobbe under press, mens rollen som mentor har styrket hans pedagogiske ferdigheter, evne til å forklare komplekse konsepter på en enkel måte, og ikke minst gjort ham bedre til å lede andre."
+        descriptionSecondParagraph="Som systemutvikler hos Phonero kombinerer Vi sin tekniske innsikt med problemløsning for å skape effektive og innovative løsninger, noe som gjør ham i stand til å levere solide, brukervennlige produkter. Hans brede erfaring gjør ham til en dyktig utvikler med et skarpt blikk for detaljer."
         skills={{
           frontend: [
             "React",

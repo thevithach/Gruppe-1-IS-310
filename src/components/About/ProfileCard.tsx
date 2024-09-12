@@ -9,6 +9,7 @@ interface ProfileProps {
   linkedinUrl: string;
   imageUrl: string;
   description: string;
+  descriptionSecondParagraph?: string;
   skills: {
     frontend: string[];
     backend: string[];
@@ -28,6 +29,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
   linkedinUrl,
   imageUrl,
   description,
+  descriptionSecondParagraph,
   skills,
   additionalInfo,
   personalWebsite,
@@ -79,6 +81,13 @@ const ProfileCard: React.FC<ProfileProps> = ({
                 <strong>{nameBold}</strong>
                 {description}
               </p>
+              {descriptionSecondParagraph && (
+                <>
+                  <p className="text-gray-800 pt-2">
+                    {descriptionSecondParagraph}
+                  </p>
+                </>
+              )}
               <h2 className="py-2 font-semibold">
                 Relevante IT-kompetanseområder inkluderer:
               </h2>
