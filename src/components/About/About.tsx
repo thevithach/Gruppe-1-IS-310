@@ -30,7 +30,7 @@ const About = () => {
       <ProfileCard
         name="Nhan Thomas Trong Nguyen"
         nameBold="Nhan Thomas"
-        title="Student | Frontend Utvikler"
+        title="Student | Frontend Utvikler, Prosjekt Manager"
         university="Universitet i Agder"
         githubUrl="https://github.com/NThomTNg"
         linkedinUrl="https://www.linkedin.com/in/nhan-thomas-nguyen-024860253/"
@@ -40,14 +40,15 @@ const About = () => {
           frontend: [
             "React",
             "Svelte",
+            "Next.js",
             "TypeScript",
             "Javascript",
             "Tailwind",
             "Bootstrap",
           ],
-          backend: ["C#", "Java", "Python", "Golang", "TypeScript"],
+          backend: ["C#", "Java", "Python", "TypeScript"],
           database: ["MySQL", "Azure", "PostgreSQL", "Mongo DB"],
-          tools: ["Docker", "Git", "npm", "Azure"],
+          tools: ["Docker", "Git", "npm", "Figma", "Scrum"],
         }}
         additionalInfo="Thomas jobber praksis hos Swipload i høst-perioden 2024 -"
         personalWebsite="https://nthomtng.github.io/PraksisNettSide/"
