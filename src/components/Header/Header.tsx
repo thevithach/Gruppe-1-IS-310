@@ -21,8 +21,8 @@ const Header = () => (
             </h2>
           </BoxReveal>
           <BoxReveal>
-            <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1 ">
-              Hei sann!
+            <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-2 ">
+              Hei oppdragsgiver!
             </h1>
           </BoxReveal>
           <div className="flex justify-center items-center w-4/5 lg:w-full">
