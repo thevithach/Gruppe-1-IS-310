@@ -39,7 +39,7 @@ function NavBar() {
     navigate("/", { state: { scrollToProfile: true } });
   };
 
-  const ThemeToggleButton = ({ className }: { className: string }) => (
+  const ThemeToggleButton = ({ className }: { className?: string }) => (
     <button
       type="button"
       onClick={toggleDarkMode}
@@ -48,7 +48,7 @@ function NavBar() {
       {isDarkMode ? (
         <svg
           className="w-5 h-5"
-          fill="currentColor"
+          fill="red"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -96,7 +96,7 @@ function NavBar() {
             </a>
           )}
           <div className="flex items-center md:order-2 md:hidden">
-            <ThemeToggleButton className="" />
+            <ThemeToggleButton />
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -136,7 +136,7 @@ function NavBar() {
                     <Link
                       to="/"
                       onClick={scrollToHomeSection}
-                      className="block py-2 px-3 text-white bg-orange-500 rounded md:bg-transparent md:text-orange-500 md:p-0 md:dark:text-orange-500"
+                      className="block py-2 px-3 text-white bg-orange-400 rounded md:bg-transparent md:text-orange-400 md:p-0 md:dark:text-orange-400"
                       aria-current="page"
                     >
                       Hjem
@@ -145,7 +145,7 @@ function NavBar() {
                   <li>
                     <button
                       onClick={handleOmOssClick}
-                      className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-orange-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Om oss
                     </button>
@@ -156,8 +156,7 @@ function NavBar() {
                   <li>
                     <a
                       href="#home"
-                      className="block py-2 px-3 text-white bg-orange-500 rounded md:bg-transparent md:text-orange-500 md:p-0 md:dark:text-orange-500"
-                      aria-current="page"
+                      className="block py-2 px-3 bg-orange-400 rounded md:bg-transparent text-black md:p-0 md:dark:text-orange-400 md:hover:text-orange-500"
                     >
                       Hjem
                     </a>
@@ -165,7 +164,7 @@ function NavBar() {
                   <li>
                     <a
                       href="#about"
-                      className="block py-2 px-3 text-gray-900 rounded hover:bg-orange-100 md:hover:bg-transparent md:hover:text-orange-500 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 px-3 text-gray-900 rounded hover:bg-orange-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-orange-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                       onClick={scrollToProfileSection}
                     >
                       Om oss
@@ -174,7 +173,7 @@ function NavBar() {
                 </>
               )}
               <li className="hidden md:block">
-                <ThemeToggleButton className={"asd"} />
+                <ThemeToggleButton />
               </li>
             </ul>
           </div>
