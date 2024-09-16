@@ -48,7 +48,7 @@ function NavBar() {
       {isDarkMode ? (
         <svg
           className="w-5 h-5"
-          fill="red"
+          fill="orange"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -81,7 +81,7 @@ function NavBar() {
               onClick={scrollToHomeSection}
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-orange-400">
                 Prosjektgjennomføring
               </span>
             </Link>
@@ -90,7 +90,7 @@ function NavBar() {
               href="#home"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-orange-400">
                 Prosjektgjennomføring
               </span>
             </a>
@@ -136,7 +136,7 @@ function NavBar() {
                     <Link
                       to="/"
                       onClick={scrollToHomeSection}
-                      className="block py-2 px-3 text-white bg-orange-400 rounded md:bg-transparent md:p-0 md:dark:text-orange-400"
+                      className="block py-2 px-3 md:text-black text-white hover:text-orange-400 bg-orange-400 rounded md:bg-transparent md:p-0 md:dark:text-orange-400"
                       aria-current="page"
                     >
                       Hjem
@@ -145,7 +145,7 @@ function NavBar() {
                   <li>
                     <a
                       onClick={handleOmOssClick}
-                      className="block py-2 px-3 text-gray-900 rounded hover:bg-orange-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-orange-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 px-3 text-black rounded hover:bg-orange-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-orange-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Om oss
                     </a>
@@ -156,7 +156,7 @@ function NavBar() {
                   <li>
                     <a
                       href="#home"
-                      className="block py-2 px-3 bg-orange-400 rounded md:bg-transparent text-black md:p-0 md:dark:text-orange-400 md:hover:text-orange-500"
+                      className="block py-2 px-3 bg-orange-400 rounded md:bg-transparent text-white md:text-black md:p-0 md:dark:text-orange-400 md:hover:text-orange-500"
                     >
                       Hjem
                     </a>
