@@ -9,9 +9,10 @@ const Header = () => (
       className="relative md:py-40 max-w-screen-max sm:pt-12 sm:pb-8 pb-8 max-w-screen-max mx-auto bg-[#fcf8f4] dark:bg-gray-900"
     >
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-indigo-950 dark:bg-[#ff8949] rounded-full transform -translate-x-1/2"></div>
-        <div className="absolute top-1/2 right-0 w-48 h-32 md:w-96 md:h-64 bg-indigo-950 dark:bg-[#ff8949] opacity-full transform -translate-x-1/2 -translate-y-1/2 rotate-12"></div>
-        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 dark:bg-[#ff8949] rounded-full transform translate-x-1/2 translate-y-1/2"></div>
+        <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-[#ff8949] rounded-full transform -translate-x-1/2"></div>
+        <div className="absolute top-1/2 right-0 w-48 h-32 md:w-96 md:h-64 bg-orange-200 opacity-30  transform -translate-x-1/2 -translate-y-1/2 rotate-12"></div>
+
+        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 rounded-full transform translate-x-1/2 translate-y-1/2"></div>
       </div>
       <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row lg:flex-nowrap max-w-screen-lg mx-auto pb-8 pt-16 md:py-0">
         <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:w-4/5">
