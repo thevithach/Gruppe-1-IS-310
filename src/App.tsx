@@ -7,7 +7,7 @@ import WhyUsPage from "./pages/WhyUsPage.tsx";
 function App() {
   return (
     <>
-      <Router>
+      <Router >
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
