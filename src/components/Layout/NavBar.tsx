@@ -10,11 +10,7 @@ function NavBar() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (typeof window !== "undefined") {
       const savedTheme = localStorage.getItem("color-theme");
-      return (
-        savedTheme === "dark" ||
-        (!savedTheme &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      );
+      return savedTheme === "dark";
     }
     return false;
   });
@@ -43,7 +39,7 @@ function NavBar() {
     navigate("/", { state: { scrollToProfile: true } });
   };
 
-  const ThemeToggleButton = ({ className }: any) => (
+  const ThemeToggleButton = ({ className }: { className: string }) => (
     <button
       type="button"
       onClick={toggleDarkMode}
