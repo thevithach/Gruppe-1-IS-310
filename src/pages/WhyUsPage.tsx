@@ -66,7 +66,7 @@ const WhyUsPage = () => {
         id="ball-container"
       >
         <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0 content-container">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1 dark:text-orange-600">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1 dark:text-[#ff8949]">
             Hvorfor velge oss?
           </h1>
           <BoxReveal>

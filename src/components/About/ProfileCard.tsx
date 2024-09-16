@@ -38,7 +38,7 @@ const ProfileCard: React.FC<ProfileProps> = ({
     <>
       <div
         id="profile-section"
-        className="container mx-auto max-w-screen-lg min-h-min m-2 p-4 py-6 rounded-md bg-white dark:bg-gray-800"
+        className="container mx-auto max-w-screen-lg min-h-min m-4 p-4 py-6 rounded-md bg-white dark:bg-gray-800"
       >
         <div className="flex lg:flex-row flex-col items-center lg:items-start lg:justify-normal justify-center lg:gap-8 gap-4">
           <div className="flex flex-col gap-2 w-1/2 justify-center items-center">
