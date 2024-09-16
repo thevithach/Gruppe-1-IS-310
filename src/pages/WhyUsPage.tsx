@@ -62,11 +62,11 @@ const WhyUsPage = () => {
   return (
     <>
       <div
-        className="relative md:py-16 max-w-screen-max mx-auto bg-[#fcf8f4] overflow-hidden"
+        className="relative md:py-16 max-w-screen-max mx-auto bg-[#fcf8f4] overflow-hidden dark:bg-gray-900"
         id="ball-container"
       >
         <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0 content-container">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-1 dark:text-orange-600">
             Hvorfor velge oss?
           </h1>
           <BoxReveal>
@@ -79,7 +79,7 @@ const WhyUsPage = () => {
             </div>
           </BoxReveal>
           <BoxReveal>
-            <p className="text-base text-justify md:text-lg text-[#010203] leading-relaxed px-7">
+            <p className="text-base text-justify md:text-lg text-[#010203] leading-relaxed px-7 dark:text-white">
               Vi er en ivrig prosjektgruppe bestående av seks studenter som har
               bestemt seg for å samarbeide rundt vårt bachelorprosjekt. Gruppen
               har valgt å slutte seg sammen på bakgrunn av vårt store

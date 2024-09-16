@@ -6,28 +6,28 @@ const Header = () => (
   <>
     <div
       id="home"
-      className="relative sm:pt-12 sm:pb-8 pb-8 max-w-screen-max mx-auto bg-[#fcf8f4]"
+      className="relative sm:pt-12 sm:pb-8 pb-8 max-w-screen-max mx-auto bg-[#fcf8f4] dark:bg-gray-900"
     >
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-orange-300 rounded-full transform -translate-x-1/2"></div>
-        <div className="absolute top-1/2 right-0 w-48 h-32 md:w-96 md:h-64 bg-orange-200 opacity-30  transform -translate-x-1/2 -translate-y-1/2 rotate-12"></div>
-        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 rounded-full transform translate-x-1/2 translate-y-1/2"></div>
+        <div className="absolute top-1 left-0 w-32 h-32 md:w-56 md:h-56 bg-orange-300 dark:bg-orange-700 rounded-full transform -translate-x-1/2"></div>
+        <div className="absolute top-1/2 right-0 w-48 h-32 md:w-96 md:h-64 bg-orange-200 dark:bg-orange-700 opacity-full transform -translate-x-1/2 -translate-y-1/2 rotate-12"></div>
+        <div className="absolute bottom-0 right-0 w-20 h-20 md:w-40 md:h-40 bg-indigo-950 dark:bg-orange-700 rounded-full transform translate-x-1/2 translate-y-1/2"></div>
       </div>
-      <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row lg:flex-nowrap max-w-screen-lg mx-auto  py-8 md:py-0">
+      <div className="relative flex flex-col lg:gap-16 gap-4 items-center justify-center lg:justify-normal lg:flex-row lg:flex-nowrap max-w-screen-lg mx-auto py-8 md:py-0">
         <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:w-4/5">
           <BoxReveal>
-            <h2 className="text-lg md:text-md text-[#ff8949] font-medium text-center lg:text-left">
+            <h2 className="text-lg md:text-md text-[#ff8949] dark:text-[#ffb380] font-medium text-center lg:text-left">
               Gruppe 1
             </h2>
           </BoxReveal>
           <BoxReveal>
-            <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] py-2 ">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#11133c] dark:text-white py-2">
               Hei oppdragsgiver!
             </h1>
           </BoxReveal>
           <div className="flex justify-center items-center w-4/5 lg:w-full">
             <BoxReveal>
-              <p className="text-base md:text-lg text-[#010203] leading-relaxed py-2 ">
+              <p className="text-base md:text-lg text-[#010203] dark:text-gray-300 leading-relaxed py-2">
                 Vi er en gruppe på seks IT-studenter som har valgt å samarbeide
                 om bacheloroppgaven. Flere av oss har tidligere jobbet sammen i
                 tidligere semestre, noe som har ført til gode karakterer, godt
@@ -47,7 +47,7 @@ const Header = () => (
               src={GroupImage}
               alt="group-image"
               loading="lazy"
-              className="lg:w-[480px] rounded-lg shadow-lg border-2 border-[#1d2b51]"
+              className="lg:w-[480px] rounded-lg shadow-lg border-2 border-[#1d2b51] dark:border-gray-700"
             />
           </BoxReveal>
         </div>

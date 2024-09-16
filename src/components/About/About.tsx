@@ -8,7 +8,7 @@ import issaBilde from "../../assets/issa-profile.jpg";
 
 const About = () => {
   return (
-    <div id="#about" className="flex flex-col pb-8 mt-8 bg-[#fcf8f4]">
+    <div id="#about" className="flex flex-col pb-8 mt-8 bg-[#fcf8f4] dark:bg-gray-900">
       <ProfileCard
         name="Issa Al-Musawi"
         nameBold="Issa Al-Musawi"

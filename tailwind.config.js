@@ -1,16 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: 'class', // Change this to 'class'
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./node_modules/flowbite/**/*.js" // Add this line to include Flowbite
   ],
   prefix: "",
   theme: {
     container: {
-      center: "true",
+      center: true, // Corrected the value to boolean
       padding: "2rem",
       screens: {
         "2xl": "1400px",
@@ -51,5 +52,8 @@ module.exports = {
       colors: {},
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("flowbite/plugin") // Add this line to include Flowbite plugin
+  ],
 };
