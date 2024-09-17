@@ -38,7 +38,7 @@ export function FormCard() {
           position: "top-right",
         });
       })
-      .catch((error) => {
+      .catch(() => {
         toast.success("Klarte ikke å sende email. Prøv igjen.", {
           description: formattedDate,
           position: "top-right",

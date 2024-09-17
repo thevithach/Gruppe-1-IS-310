@@ -4,7 +4,6 @@ import Home from "./pages/Home.tsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import WhyUsPage from "./pages/WhyUsPage.tsx";
 import Contact from "./pages/Contact.tsx";
-import { Toaster } from "sonner";
 
 function App() {
   return (
