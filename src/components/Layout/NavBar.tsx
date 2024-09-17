@@ -75,7 +75,7 @@ function NavBar() {
     <>
       <nav className="bg-[#fcf8f4] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b shadow-md">
         <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-4 lg:px-0 px-4 pl-6">
-          {location.pathname === "/HvorforOss" ? (
+          {location.pathname !== "/" ? (
             <Link
               to="/"
               onClick={scrollToHomeSection}
