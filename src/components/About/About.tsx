@@ -50,8 +50,8 @@ const About = () => {
           database: ["MySQL", "Azure Data Studio", "PostgreSQL", "Mongo DB"],
           tools: ["Docker", "Git", "npm", "Figma", "Scrum"],
         }}
-        additionalInfo="Thomas jobber praksis hos Swipload i høst-perioden 2024 -"
-        personalWebsite="https://nthomtng.github.io/PraksisNettSide/"
+        additionalInfo="Finn mer informasjon om Thomas på hans personlige nettside:"
+        personalWebsite="https://thomportfolio.vercel.app/"
       />
       <ProfileCard
         name="Omar Passi"
