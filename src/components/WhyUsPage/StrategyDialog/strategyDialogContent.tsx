@@ -7,13 +7,13 @@ export const scrumDialogContent = {
     "Vi planlegger å bruke Scrum som vårt foretrukne rammeverk for å styre bacheloroppgaven vår. Scrum er en smidig metodikk som gir oss mulighet til å jobbe iterativt og inkrementelt, noe som passer godt for utviklingen av et IT-prosjekt. Vi vil organisere arbeidet vårt i sprints, typisk to uker lange, hvor vi vil fokusere på spesifikke oppgaver og mål.",
   boldContentSecondParagraph: "2. Sprintplanlegging og gjennomføring:",
   SecondParagraph:
-    "I begynnelsen av hver sprint vil vi ha en sprintplanlegging hvor vi sammen definerer mål og fordeler oppgaver blant gruppemedlemmene. På slutten av hver sprint vil vi gjennomføre en sprintgjennomgang for å evaluere fremdriften og en retrospektiv for å identifisere forbedringsområder. Dette gir oss mulighet til å justere kursen etter behov og sikrer kontinuerlig fremdrift.",
+    "I begynnelsen av hver sprint vil vi ha en sprintplanlegging hvor vi sammen definerer mål og fordeler oppgaver blant gruppemedlemmene. Sammen skal gruppen danne et proukt backlogg som skal bli jevnlig følgt og oppdatert i løpet av perioden. På slutten av hver sprint vil vi gjennomføre en sprintgjennomgang for å evaluere fremdriften og en retrospektiv for å identifisere forbedringsområder. Dette gir oss mulighet til å justere kursen etter behov og sikrer kontinuerlig fremdrift.",
   boldContentThirdParagraph: "3. Rollen til Scrum-master og Product Owner:",
   ThirdParagraph:
     "For å sikre at vi følger Scrum-rammeverket effektivt, vil vi rotere rollene som Scrum-master og Product Owner blant gruppemedlemmene. Scrum-masteren vil sørge for at teamet holder seg til Scrum-prinsippene, fjerner hindringer, og fasiliterer kommunikasjon. Product Owner vil være ansvarlig for backlog-prioritering og å representere interessentene, inkludert veileder og eventuelle eksterne partnere.",
   boldContentFourthParagraph: "4. Daglige standups og kommunikasjon:",
   FourthParagraph:
-    "Vi vil holde daglige standup-møter (15-minutters morgenmøter) hvor hvert medlem gir en rask oppdatering på hva de har gjort, hva de skal gjøre, og om det er noen hindringer. Dette hjelper oss med å holde alle informert og opprettholde en høy grad av synkronisering. Kommunikasjonen vil i hovedsak foregå gjennom verktøy som Slack eller Microsoft Teams, hvor vi vil opprette kanaler for forskjellige emner og oppgaver.",
+    "Vi vil holde daglige standup-møter (15-minutters morgenmøter) hvor hvert medlem gir en rask oppdatering på hva de har gjort, hva de skal gjøre, og om det er noen hindringer. Dette hjelper oss med å holde alle informert, opprettholde en høy grad av synkronisering, og gir muligheten til justering om det trengs. Kommunikasjonen vil i hovedsak foregå gjennom verktøy som Slack eller Microsoft Teams, hvor vi vil opprette kanaler for forskjellige emner og oppgaver.",
 };
 
 // WhyUsPage.tsx
@@ -47,7 +47,7 @@ export const qualityAndImprovementContent = {
 
   boldContentFirstParagraph: "1. Kvalitetssikring:",
   FirstParagraph:
-    "Kvalitetssikring er en integrert del av vår prosjektstyring. Vi setter høye standarder for kvalitet og sikrer at alle leveranser møter disse standardene gjennom strukturerte prosesser og rutiner. Dette inkluderer klare kravspesifikasjoner, dokumentasjonsstandarder, og regelmessige kvalitetsgjennomganger.",
+    "Kvalitetssikring er en integrert del av vår prosjektstyring. Vi setter høye standarder for kvalitet og sikrer at alle leveranser møter disse standardene gjennom strukturerte prosesser og rutiner. Dette inkluderer klare kravspesifikasjoner, dokumentasjonsstandarder, og regelmessige kvalitetsgjennomganger med oppdragsgiver.",
 
   boldContentSecondParagraph: "2. Testing:",
   SecondParagraph:
