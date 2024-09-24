@@ -11,7 +11,7 @@ const WhyUsBanner = () => {
       <BoxReveal>
         <Link to="/HvorforOss" onClick={scrollToTop}>
           <div className="max-w-6xl lg:max-w-xl lg:w-full w-4/5 mx-auto">
-            <div className="bg-white shadow-[0_2px_10px_0_rgba(0,0,0,0.1)] relative group">
+            <div className="bg-white dark:bg-[#1F2937] shadow-[0_2px_10px_0_rgba(0,0,0,0.1)] relative group">
               <div>
                 <div className="p-2 px-4">
                   <span className="rounded-md inline-block mb-3 lg:mb-0 py-1 px-2.5 mt-0.5 uppercase text-[9px] font-heading font-semibold tracking-wider text-orange-500 bg-orange-100">
@@ -20,7 +20,7 @@ const WhyUsBanner = () => {
                 </div>
 
                 <div className="pb-24 md:pb-6 lg:pb-5 pr-5 md:pr-32 lg:pr-28">
-                  <h4 className="font-heading font-semibold text-lg leading-tight mb-0.5 px-4">
+                  <h4 className="font-heading font-semibold text-lg leading-tight mb-0.5 px-4 dark:text-white">
                     Hvorfor skal arbeidsgivere velge oss?
                   </h4>
                   <p className="text-gray-400 text-sm font-semibold px-4">

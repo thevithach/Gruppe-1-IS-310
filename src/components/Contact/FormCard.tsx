@@ -96,7 +96,7 @@ export function FormCard() {
             </div>
             <Button
               type="submit"
-              className="w-full bg-orange-400 hover:bg-orange-300"
+              className="w-full dark:text-white bg-orange-400 dark:bg-orange-400 dark:hover:bg-orange-300 hover:bg-orange-300"
             >
               Send
             </Button>
