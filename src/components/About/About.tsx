@@ -12,7 +12,7 @@ const About = () => {
       <ProfileCard
         name="Issa Al-Musawi"
         nameBold="Issa Al-Musawi"
-        title="Student | Full-Stack Utvikler"
+        title="Backend | Scrum Master"
         university="Universitet i Agder"
         githubUrl="https://github.com/issaalmusawi"
         linkedinUrl="https://www.linkedin.com/in/issa-al-musawi-77684b96/"
@@ -30,12 +30,12 @@ const About = () => {
       <ProfileCard
         name="Nhan Thomas Trong Nguyen"
         nameBold="Nhan Thomas"
-        title="Student | Frontend Utvikler, Prosjekt Manager"
+        title="Frontend | Prosjekt Manager"
         university="Universitet i Agder"
         githubUrl="https://github.com/NThomTNg"
         linkedinUrl="https://www.linkedin.com/in/nhan-thomas-nguyen-024860253/"
         imageUrl={ThomasBilde}
-        description=" er en engasjert IT-student på 22 år fra Trondheim, med en stor interesse for teknologi og data. Gjennom flere år på universitet så har han utviklet en solid kompentanse innen IT. Dette gjelder både back-end og front-end. Nysgjerrighet og prøve ved feil har gitt han en god forståelse og kunnskap innenfor feltet, og han er alltid klar for å lære noe nytt og løse utfordringer. Gjennom høsten 2024 jobber Thomas hos Swipload, der han lærer veldig mye praktisk og profesjonell erfaring som kommer til å utvikle videre hans kompentanse."
+        description=" er 22 år gammel fra Trondheim med en stor interesse for teknologi og data. Gjennom flere år på universitet så har han utviklet en solid kompentanse innen IT. Dette gjelder både back-end og front-end. Nysgjerrighet og prøve ved feil har gitt han en god forståelse og kunnskap innenfor feltet, og han er alltid klar for å lære noe nytt og løse utfordringer. Gjennom høsten 2024 jobber Thomas hos Swipload, der han lærer veldig mye praktisk og profesjonell erfaring som kommer til å utvikle videre hans kompentanse."
         skills={{
           frontend: [
             "React",
@@ -50,13 +50,13 @@ const About = () => {
           database: ["MySQL", "Azure Data Studio", "PostgreSQL", "Mongo DB"],
           tools: ["Docker", "Git", "npm", "Figma", "Scrum"],
         }}
-        additionalInfo="Finn mer informasjon om Thomas på hans personlige nettside:"
+        additionalInfo="For å finne ut mer om Thomas og hans prosjekter, besøk nettsiden hans:"
         personalWebsite="https://thomportfolio.vercel.app/"
       />
       <ProfileCard
         name="Omar Passi"
         nameBold="Omar Passi"
-        title="Student | Full-Stack Utvikler"
+        title="Backend | Databaseansvarlig"
         university="Universitet i Agder"
         githubUrl="https://github.com/Omarp321"
         linkedinUrl="https://www.linkedin.com/in/omarpassi1/"
@@ -74,7 +74,7 @@ const About = () => {
       <ProfileCard
         name="Tony Nguyen Le"
         nameBold="Tony Nguyen Le "
-        title="Student | Full-Stack Utvikler"
+        title="Fullstack | UX/UI Design"
         university="Universitet i Agder"
         githubUrl="https://github.com/TonyLe02"
         linkedinUrl="https://www.linkedin.com/in/tonynl02"
@@ -100,7 +100,7 @@ const About = () => {
       <ProfileCard
         name="Vi The Thach"
         nameBold="Vi The Thach "
-        title="Student | Full-Stack Utvikler"
+        title="Fullstack | Systemarkitekt"
         university="Universitet i Agder"
         githubUrl="https://github.com/thevithach"
         linkedinUrl="https://www.linkedin.com/in/vithethach/"
@@ -129,7 +129,7 @@ const About = () => {
       <ProfileCard
         name="Viktor Johan Kalhovd"
         nameBold="Viktor Johan Kalhovd"
-        title="Student | Full-Stack Utvikler"
+        title="Backend | UX/UI Design"
         university="Universitet i Agder"
         githubUrl="https://github.com/ViktorJGK"
         linkedinUrl="https://www.linkedin.com/in/viktor-johan-glenne-kalhovd-4a0a14323/"
