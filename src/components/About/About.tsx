@@ -35,7 +35,8 @@ const About = () => {
         githubUrl="https://github.com/NThomTNg"
         linkedinUrl="https://www.linkedin.com/in/nhan-thomas-nguyen-024860253/"
         imageUrl={ThomasBilde}
-        description=" er 22 år gammel fra Trondheim med en stor interesse for teknologi og data. Gjennom flere år på universitet så har han utviklet en solid kompentanse innen IT. Dette gjelder både back-end og front-end. Nysgjerrighet og prøve ved feil har gitt han en god forståelse og kunnskap innenfor feltet, og han er alltid klar for å lære noe nytt og løse utfordringer. Gjennom høsten 2024 jobber Thomas hos Swipload, der han lærer veldig mye praktisk og profesjonell erfaring som kommer til å utvikle videre hans kompentanse."
+        description=" er 22 år gammel fra Trondheim med en stor interesse for teknologi og data. Dataspill og internett surfing har alltid vært hans hobby helt siden han var liten. Etter som årene har gått har han også funnet lidenskap i andre ting, som trening og lesing. Matlaging er også noe han liker godt og han er aldri redd for å prøve noe nytt fra andre kulturer, om det er å smake eller lage det selv."
+        descriptionSecondParagraph="Flere år på studiet har gitt han en solid kompentanse innen IT. Dette gjelder både back-end og front-end. Nysgjerrighet og prøve ved feil har gitt han en god forståelse og kunnskap innenfor feltet, og han er alltid klar for å lære noe nytt og løse utfordringer. Gjennom høsten 2024 jobber Thomas hos Swipload, der han lærer hvordan utvikling skjer i et profesjonelt miljø og hvordan man samarbeider i et stort team for å utvikle tjenester."
         skills={{
           frontend: [
             "React",
@@ -129,7 +130,7 @@ const About = () => {
       <ProfileCard
         name="Viktor Johan Kalhovd"
         nameBold="Viktor Johan Kalhovd"
-        title="Backend | UX/UI Design"
+        title="Frontend | UX/UI Design"
         university="Universitet i Agder"
         githubUrl="https://github.com/ViktorJGK"
         linkedinUrl="https://www.linkedin.com/in/viktor-johan-glenne-kalhovd-4a0a14323/"
