@@ -39,27 +39,29 @@ export function StrategyDialog({
           Se mer
         </p>
       </DialogTrigger>
-      <DialogContent className="w-[90%] overflow-scroll sm:overflow-auto sm:max-w-[600px] sm:max-h-[90%] h-[90%] sm:h-auto  rounded-md">
+      <DialogContent className="w-[90%] overflow-scroll sm:overflow-auto sm:max-w-[600px] sm:max-h-[90%] h-[90%] sm:h-auto  rounded-md dark:bg-gray-900">
         <DialogHeader>
-          <DialogTitle>{title}</DialogTitle>
+          <DialogTitle className="dark:text-orange-400">{title}</DialogTitle>
           <DialogDescription>{shortDescription}</DialogDescription>
         </DialogHeader>
-        <p>
-          <span className="font-semibold">{boldContentFirstParagraph}</span>{" "}
-          {FirstParagraph}
-        </p>
-        <p>
-          <span className="font-semibold">{boldContentSecondParagraph}</span>{" "}
-          {SecondParagraph}
-        </p>
-        <p>
-          <span className="font-semibold">{boldContentThirdParagraph}</span>{" "}
-          {ThirdParagraph}
-        </p>
-        <p>
-          <span className="font-semibold">{boldContentFourthParagraph}</span>{" "}
-          {FourthParagraph}
-        </p>
+        <div className="dark:text-white">
+          <p className="pb-2">
+            <span className="font-semibold">{boldContentFirstParagraph}</span>{" "}
+            {FirstParagraph}
+          </p>
+          <p className="pb-2">
+            <span className="font-semibold">{boldContentSecondParagraph}</span>{" "}
+            {SecondParagraph}
+          </p>
+          <p className="pb-2">
+            <span className="font-semibold">{boldContentThirdParagraph}</span>{" "}
+            {ThirdParagraph}
+          </p>
+          <p className="pb-2">
+            <span className="font-semibold">{boldContentFourthParagraph}</span>{" "}
+            {FourthParagraph}
+          </p>
+        </div>
       </DialogContent>
     </Dialog>
   );
