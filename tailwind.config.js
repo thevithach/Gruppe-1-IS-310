@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: 'class', // Change this to 'class'
+import tailwindcssAnimate from "tailwindcss-animate";
+import flowbitePlugin from "flowbite/plugin";
+
+export default {
+  darkMode: "class", // Change this to 'class'
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "./node_modules/flowbite/**/*.js" // Add this line to include Flowbite
+    "./node_modules/flowbite/**/*.js", // Add this line to include Flowbite
   ],
   prefix: "",
   theme: {
@@ -53,7 +56,7 @@ module.exports = {
     },
   },
   plugins: [
-    require("tailwindcss-animate"),
-    require("flowbite/plugin") // Add this line to include Flowbite plugin
+    tailwindcssAnimate,
+    flowbitePlugin, // Add this line to include Flowbite plugin
   ],
 };
